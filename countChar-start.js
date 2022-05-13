@@ -5,3 +5,19 @@
 	* Esempio
 	* countChar("hello") => {h: 1, e: 1, l: 2, o: 1}
 	*/
+
+
+
+	function countChar(words) {
+		var frequence = {};
+		for (var i=0; i<words.length;i++) {
+			var character = words.charAt(i);
+			if frequence(character) {
+				frequence.push(character)++;
+			} else {
+				frequence.push(character) = 1;
+			}
+		}
+	
+		return frequence;
+	};

@@ -3,3 +3,9 @@
 	* Esempio:
 	* reverse("ciao") => "oaic"
 	*/
+
+	function reverseWords(words) {
+		
+		console.log(reverseWords = words.split('').reverse().join(''));
+	
+		}

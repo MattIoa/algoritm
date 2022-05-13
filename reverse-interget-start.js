@@ -6,3 +6,11 @@
 	* reverseInt(-90) => -9
 	* reverseInt(-15) => -51
 	*/
+
+	
+
+	function reverseNumber(number) {
+		
+	console.log(reverseNumber = number.toString().split('').reverse().join('')) * Math.sign(number)
+
+	}
